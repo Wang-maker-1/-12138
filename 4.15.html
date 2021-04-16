@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url(../2C8A8355-2.jpg);
+                 background-repeat:no-repeat;
+                 background-size:cover;
+                 background-attachment: fixed;
+                 }
+            th{
+                color:white;text-align:center;
+               line-height: 45px;padding: 0px 15px;
+               display: inline-block;
+               }
+            .wang1{
+                display: inline-block;
+                }
+            .hao{
+                display: none;
+                      position: absolute;
+                      background-color:rgba(87, 87, 87, 0.767);
+                      padding: 6px 8px;
+                      padding-top: 0px;
+                      }
+            .wang1:hover .hao{
+                display:block;
+                background-color: chocolate;
+                transition: 2s;
+                }
+            p{
+                text-align: left;line-height: 15px;margin: 5px;
+                }
+            .wh{
+                background-color: chocolate;
+            }
+            .search{
+                margin:auto;margin-top: 200px;
+                }
+.container {
+    height: 400px;
+    width: 700px;
+    margin:auto auto;
+    }
+.parent {
+    position: relative;
+    }
+.search{
+    width: 20px;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;}
+button{    
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    outline: none;
+    position:fixed;
+    margin: 220px 220px;}
+.search:checked, .search:focus{
+    border-color: rgb(255, 238, 0);
+    color: rgb(39, 39, 39);
+    position: absolute;
+    width: 500px;
+    transition: 2s;
+    }
+    </style>
+        <title>王浩的摄影作品展</title>
+    </head>
+
+    <body>
+        <div style="float:left;" class="title">
+            <img src="../杭电图标加文字.png" style="float: left;width: 20%;padding-top: 15px;padding-left: 15px;">
+            <table>
+                <tr>
+                    <th class="t1">首页</th>
+                    <th class="t2"> 
+                        <div class="wang1">
+                            <span>摄影图片</span>
+                            <div class="hao">
+                               <p calss="wh">手机摄影</p>
+                               <p calss="wh">专业摄影</p>
+                            </div>    
+                    </th>
+                    <th class="t3">
+                        <div class="wang1">
+                            <span>视频作品</span>
+                            <div class="hao">
+                               <p calss="wh">短视频</p>
+                               <p calss="wh">VLOG</p>
+                               <p calss="wh">长视频</p>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div style="float:right;">
+            <p style="float: right;color: white;padding: 10px;"><b>登录</b></p>
+            <p style="float: right;color: white;padding: 10px;"><b>注册</b></p>
+        </div>
+<pre>
+        <div class="container">
+            <form action="" class="parent">
+                <input type="text" class="search"  >
+            </form>
+            <a herf="http://www.baidu.com"><button>这里可以点一下</button></a>
+        </div>
+</pre>    
+    </body>
+    </html>
