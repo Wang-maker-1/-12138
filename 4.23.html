@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife</title>
+    <style>
+        body{
+            background-color: thistle;
+            color: black;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px turquoise;
+        }
+        h2{
+            text-align: center;
+            padding:10px auto;
+            }
+        a{
+            color:black;
+            text-decoration:none;
+            text-transform:uppercase;
+            font-weight:bold;
+        }
+        form.search{
+            height: 20px;
+            padding:10px;
+        }
+        nav{
+            display:flex;
+            background-color:white;
+        }
+        ul{flex-direction:row;
+            flex:2}
+        form.search{flex-direction:row;
+            flex:1;}
+        ul{display: flex;}
+        li{flex:1}
+        form.search{display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        }
+        
+        .i1{flex:3;}
+        .i2{flex:1}
+        .i2{background-color: black;
+        color: white;
+        }
+        main{
+            background-color: white;
+        }
+        main {
+            display:flex;
+        }
+        article{flex:3;}
+        .secondary{flex:1;}
+        .odd{background-color: rgb(113, 168, 255);}
+        table{
+            border-collapse: collapse;
+            height: auto;
+            width: 100%;
+        }
+        .img{
+            margin: 0 auto;
+            width: 50%;
+            height: auto;
+        }
+        .comment-wrapper{
+            background-color: rgb(87, 216, 255);
+        }
+        table{text-align: center;}
+        .mp{margin: 0 auto;
+            width: 50%;
+            height:auto;
+            text-align: center;}
+        form{display: flex;
+        flex-direction: column;
+        }
+        .flex-pair{
+            margin: 5px auto;
+            width: 70%;
+            height: auto;
+        }
+        .flex-pair{display: flex;}
+        label{flex:1;}
+        .in{flex:4}
+
+        label{text-align: right;
+              padding-right:20px;
+        }
+        .in{
+            text-align: left;
+        }
+        .sub{
+            width: auto ;
+            height: auto;
+            margin:10px auto;
+        }
+        .comment-container{
+            display: flex;
+        }
+        .Bob{flex: 1;}
+        .Oh{flex: 15;}
+        .Bob{padding-left:10px;
+        }
+        a{color:rgb(68, 165, 255)}
+        a:hover{color: gold;}
+        footer{background-color: white;
+        border:1px solid white;
+        margin-top: -5px;
+        }
+        .last{
+            display: flex;
+            flex-direction:column;
+        }
+        .Re{text-align: left;}
+        .wu{
+            font-size: 10px;
+            text-align: left;
+            margin-left: -5px
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to our wildlife website</h1>
+    </header>
+
+    <nav>
+        <ul style="list-style: none;">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <form class="search">
+            <input class="i1" type="search" name="q" placeholder="Search query">
+            <input class="i2" type="submit" value="Go!">
+        </form>
+    </nav>
+
+    <main>
+        <article>
+            <h2>The trouble with Bears</h2>
+
+            <p>By Evan Wild</p>
+
+            <p>Tall, lumbering, angry, dangerous. The real live bears of this world are proud, independent creatures, self-serving and always on the hunt for food. Nothing like the bears you see on TV, like Baloo from renowned documentary, The Jungle Book.</p>
+
+            <p>So what are bears really like, and why does the world's media portray them with such a skewed vision? In this article we try to answer those questions, and give you a real insight into the life of the bear.</p>
+
+            <h3>Types of bear</h3>
+
+            <p>Bears come in two varieties — large and medium. You don't get small bears. If you have seen a small bear, then it was in fact probably a baby bear (cub) from another species.</p>
+
+            <p>Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The
+                below table also gives you some useful facts about bears.</p>
+
+            <table>
+                <thead>
+                    <tr class="odd">
+                        <th>Bear Type</th>
+                        <th>Coat</th>
+                        <th>Adult size</th>
+                        <th>Habitat</th>
+                        <th>Lifespan</th>
+                        <th>Diet</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="even">
+                        <th>Wild</th>
+                        <td>Brown or black</td>
+                        <td>1.4 to 2.8 meters</td>
+                        <td>Woods and forests</td>
+                        <td>25 to 28 years</td>
+                        <td>Fish, meat, plants</td>
+                    </tr>
+                    <tr class="odd">
+                        <th>Urban</th>
+                        <td>North Face</td>
+                        <td>18 to 22</td>
+                        <td>Condos and coffee shops</td>
+                        <td>20 to 32 years</td>
+                        <td>Starbucks, sushi</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h3>Habitats and Eating habits</h3>
+
+            <p>Wild bears eat a variety of meat, fish, fruit, nuts, and other natually growing ingredients. In general they will hunt for food themselves in woodland or rivers, but at a push they will track down their sustenance from farms or country houses.
+                They tend to live in relative isolation, in caves, tents, or cottages. The below image shows <span id="wild-label">a big brown wild bear, standing in a river looking for fish to eat</span>.</p>
+
+            <div class="img"><img src="./杭电校徽.png" ></div>
+
+            <p>Urban (gentrified) bears on the other hand have largely abandoned the old ways. They will hunt other urban creatures if necessary (including other predators like rats and foxes), but prefer to scavenge from readily available urban food outlets
+                like dumpsters, bins, and fast food joints. When food has proven scarce, urban bears have even been known to break into people's kitchens and steal essentials like baked beans, ready meals, and microwave ovens. Below you can see
+                <span id="urban-label">an urban polar bear, looking through the railings of his garden while contemplating whether to eat at Nandos or Taco Bell</span>.</p>
+
+            <div class="img"><img src="./QQ图片20210416145819.png" ></div>
+
+            <p>Urban bears will sleep anywhere they can, from bus shelters and parks, to the toilets in McDonalds, to their own apartment.</p>
+
+
+            <h3>Mating rituals</h3>
+
+            <p>Bears are romantic creatures by nature, and will naturally look for a mate that they can spend the rest of their lives with. They will woo a potential suitor by making their dwelling look attractive — for example with cave paintings or a bed
+                of reeds in the case of a wild bear, and mood lighting and a Michael Bublé CD in the case of an urban bear.</p>
+
+            <p>The following audio clip contains a fact file providing more details about bear mating rituals, along with samples and quotes from experts. You can also access a <a href="#">text transcript of the audio clip</a>.</p>
+
+            <div class="mp">
+            <audio controls>
+                <source src="media/bear.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+
+            <h3>About the author</h3>
+
+            <p>Evan Wild is an unemployed plumber from Doncaster, who has been really "in to" wildlife since childhood. He once went to Chester Zoo on holiday, but got ill after eating a doner kebab.
+
+                <p>He has never seen a bear, but once read a Daily Mail article about them, and thinks they sound cool.</p>
+
+
+                <section class="comments">
+
+                    <div class="comment-wrapper">
+
+                        <h2>Add comment</h2>
+
+                        <form class="comment-form">
+
+                            <div L class="flex-pair" >
+                                <label for="name"><b>Your name:</b></label>
+                                <input class="in" type="text" name="name" id="name" placeholder="Enter your name">
+                            </div>
+
+                            <div class="flex-pair">
+                                <label for="comment"><b>Your comment:</b></label>
+                                <input class="in" type="text" name="comment" id="comment" placeholder="Enter your comment">
+                            </div>
+
+                            <div class="sub">
+                                <input class="submit1" type="submit" style="color: white;background-color: black;" value="Submit comment">
+                            </div>
+
+                        </form>
+
+                        <h2>Comments</h2>
+
+                        <div class="comment-container">
+
+                            <p class="Bob" >Bob Fossil</p>
+
+                            <p class="Oh">Oh I am so glad you taught me all about the big brown angry guys in the woods. With their sniffing little noses and their bad attitudes, they can sure be a menace — I was thinking of putting them all in a truck and driving
+                                them outta here. I run a zoo, you know.</p>
+
+                        </div>
+
+                    </div>
+                </section>
+
+        </article>
+
+        <div class="secondary">
+            <h2 class="Re">Related</h2>
+
+            <ul class="last" style="list-style: none;">
+                <li class="wu"><a href="#">The trouble with Bees</a></li>
+                <li class="wu"><a href="#">The trouble with Otters</a></li>
+                <li class="wu"><a href="#">The trouble with Penguins</a></li>
+                <li class="wu"><a href="#">The trouble with Octopi</a></li>
+                <li class="wu"><a href="#">The trouble with Lemurs</a></li>
+            </ul>
+        </div>
+    </main>
+<br>
+    <footer>
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+<br>
+</body>
+
+</html>
